@@ -8,5 +8,23 @@ export const imagePath = {
   w780: `${IMG_PATH}w780`,
   empty: 'https://ssl.pstatic.net/static/movie/2012/06/dft_img77x96_1.png',
 };
+export const AROUND_NOW_PLAYING = 'AROUND_NOW_PLAYING';
+export const AROUND_POPULAR = 'AROUND_POPULAR';
+export const AROUND_TOP_RATED = 'AROUND_TOP_RATED';
+export const AROUND_UPCOMING = 'AROUND_UPCOMING';
 
 export const korean = 'language=ko-KR';
+
+export const aroundQueries = {
+  [AROUND_NOW_PLAYING]: 'movie/now_playing',
+  [AROUND_POPULAR]: 'movie/popular',
+  [AROUND_TOP_RATED]: 'movie/top_rated',
+  [AROUND_UPCOMING]: 'movie/upcoming',
+};
+
+export const aroundList = [
+  { text: '현재상영중', state: 'prev', type: AROUND_NOW_PLAYING },
+  { text: '인기', state: 'cur', type: AROUND_POPULAR },
+  { text: '좋은평가', state: 'next', type: AROUND_TOP_RATED },
+  { text: '상영예정', state: 'none', type: AROUND_UPCOMING },
+];

@@ -11,13 +11,14 @@ const OverlayButton = ({ color }) => {
   const handleClick = useCallback(() => {
     isOpen ? dispatch(close()) : dispatch(open());
   }, [dispatch, isOpen]);
+
   return (
     <StyledOverlayButton
       isOpen={isOpen}
       onClick={handleClick}
       color={color}
       type="button"
-      aria-label="apsb"
+      aria-label="메뉴"
     >
       <div />
       <div />

@@ -19,7 +19,7 @@ const StyledOverlayButton = styled.button`
     &:first-child {
       width: ${({ isOpen }) => (isOpen ? '2rem' : '1.3rem')};
       transform-origin: top left;
-      transform: ${({ isOpen }) => (isOpen ? 'rotateZ(45deg' : 'rotateZ(0)')};
+      transform: ${({ isOpen }) => (isOpen ? 'rotateZ(45deg)' : 'rotateZ(0)')};
     }
 
     &:nth-child(2) {

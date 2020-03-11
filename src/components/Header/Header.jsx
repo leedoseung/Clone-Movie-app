@@ -3,6 +3,7 @@ import { Wrapper, device } from 'styles/variables';
 import PropTypes from 'prop-types';
 import { useMediaQuery } from 'react-responsive';
 import { Link, useHistory } from 'react-router-dom';
+import Overlay from 'components/Overlay/Overlay';
 import * as S from './Header.style';
 import OverlayButton from './OverlayButton/OverlayButton';
 
@@ -45,6 +46,7 @@ const Header = ({ color, bgColor, isSerching }) => {
               )}
             </S.MenuContainer>
           </S.Container>
+          <Overlay />
         </Wrapper>
       </S.Header>
     </>
