@@ -11,34 +11,30 @@ const DetailSimilars = () => {
   const { result } = useSelector(state => state.detail);
 
   const params = {
-    sildesPerView: 2,
+    slidesPerView: 2,
     spaceBetween: 30,
     pagination: {
       clickable: true,
     },
     breakpoints: {
       768: {
-        sildesPerView: 3,
+        slidesPerView: 3,
       },
       1200: {
-        sildesPerView: 4,
+        slidesPerView: 4,
       },
     },
   };
-
-  const { similars } = result;
 
   return (
     <>
       <Section>
         <Wrapper>
           <Container>
-            {similars && similars.length ? (
-              <Title>이런 영화는 어때요?</Title>
-            ) : null}
-            <Swiper {...params}>
-              {similars &&
-                similars.map(similar => (
+            {result.similars.length ? <Title>이런 영화는 어때요?</Title> : null}
+            {result.similars.length ? (
+              <Swiper {...params}>
+                {result.similars.map(similar => (
                   <Link key={similar.id} to={`/detail/${similar.id}`}>
                     <div>
                       <S.PosterImg src={similar.posterPath} alr="포스터" />
@@ -46,8 +42,10 @@ const DetailSimilars = () => {
                     </div>
                   </Link>
                 ))}
-              />
-            </Swiper>
+              </Swiper>
+            ) : (
+              'null'
+            )}
           </Container>
         </Wrapper>
       </Section>
