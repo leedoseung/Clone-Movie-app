@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f763ddebfe637ed07436c4eee04b7327",
+    "revision": "86f7ede24626cae69d6b68d2bb565dba",
     "url": "/Clone-Movie-app/index.html"
   },
   {
-    "revision": "652378b992264f708469",
+    "revision": "bf09c391d7be0c2ee416",
     "url": "/Clone-Movie-app/static/css/2.0988ea1f.chunk.css"
   },
   {
-    "revision": "8eabe4bdc1e1c26fa4c9",
+    "revision": "5f9b6187560bb440d5dd",
     "url": "/Clone-Movie-app/static/css/main.45df4133.chunk.css"
   },
   {
-    "revision": "652378b992264f708469",
-    "url": "/Clone-Movie-app/static/js/2.9e202c33.chunk.js"
+    "revision": "bf09c391d7be0c2ee416",
+    "url": "/Clone-Movie-app/static/js/2.4c1e4398.chunk.js"
   },
   {
     "revision": "2fddd64fca6735eabb349987b16b2eac",
-    "url": "/Clone-Movie-app/static/js/2.9e202c33.chunk.js.LICENSE.txt"
+    "url": "/Clone-Movie-app/static/js/2.4c1e4398.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8eabe4bdc1e1c26fa4c9",
-    "url": "/Clone-Movie-app/static/js/main.148fddd5.chunk.js"
+    "revision": "5f9b6187560bb440d5dd",
+    "url": "/Clone-Movie-app/static/js/main.bd251158.chunk.js"
   },
   {
     "revision": "9abe144017742b5ec170",
