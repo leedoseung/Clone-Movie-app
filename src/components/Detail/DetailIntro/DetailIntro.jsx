@@ -40,30 +40,31 @@ const DetailIntro = () => {
   } = result;
   return (
     <>
-      <S.Background backdropPath={backdropPath}>
-        <Section>
-          <Wrapper>
-            <Container>
-              <S.Poster src={posterPath} alt="포스터" />
-              <h1>{title}</h1>
-              <S.Year>({releaseDate})</S.Year>
-              <S.Info>
-                <span>★ {rating}</span>
-                <span>{genres}</span>
-                <span>{runtime}</span>
-              </S.Info>
-              <S.Like type="button" onClick={onClickLike}>
-                <span>{isLike ? '좋아요 취소' : '좋아요'}</span>
-                {isLike ? <S.DislikeIcon /> : <S.LikeIcon />}
-              </S.Like>
-              <S.Divider />
-              <S.OverviewTitle>줄거리</S.OverviewTitle>
-              {tagline && <h3>{tagline}</h3>}
-              <S.OverviewContent>{overview}</S.OverviewContent>
-            </Container>
-          </Wrapper>
-        </Section>
-      </S.Background>
+      <S.Background backdropPath={backdropPath} />
+      <Section>
+        <Wrapper>
+          <Container>
+            <S.Poster src={posterPath} alt="포스터" />
+            <h1>{title}</h1>
+            <S.Year>({releaseDate})</S.Year>
+            <S.Info>
+              <span>★ {rating}</span>
+              <span>{genres}</span>
+              <span>{runtime}</span>
+            </S.Info>
+            <S.Like type="button" onClick={onClickLike}>
+              <span data-testid="like-button">
+                {isLike ? '좋아요 취소' : '좋아요'}
+              </span>
+              {isLike ? <S.DislikeIcon /> : <S.LikeIcon />}
+            </S.Like>
+            <S.Divider />
+            <S.OverviewTitle>줄거리</S.OverviewTitle>
+            {tagline && <h3>{tagline}</h3>}
+            <S.OverviewContent>{overview}</S.OverviewContent>
+          </Container>
+        </Wrapper>
+      </Section>
     </>
   );
 };

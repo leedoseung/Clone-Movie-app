@@ -35,7 +35,7 @@ const Header = ({ color, bgColor, isSerching }) => {
                     <Link to="/around">둘러보기</Link>
                   </S.LI>
                   <S.LI>
-                    <Link to="/likes"></Link>
+                    <Link to="/likes">좋아요</Link>
                   </S.LI>
                   <S.LI>
                     <Link to="/about">소개</Link>

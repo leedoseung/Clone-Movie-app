@@ -22,7 +22,7 @@ const Poster = styled.img`
   box-shadow: 0 5px 2px 0 rgba(0, 0, 0, 0.5);
 
   @media ${device.TabletPortrait} {
-    width: 30vh;
+    width: 30vw;
   }
 `;
 
