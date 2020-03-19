@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "86f7ede24626cae69d6b68d2bb565dba",
+    "revision": "1aa2fec9c90ceb20659aea7fd96bac14",
     "url": "/Clone-Movie-app/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Clone-Movie-app/static/css/2.0988ea1f.chunk.css"
   },
   {
-    "revision": "5f9b6187560bb440d5dd",
+    "revision": "648780c80ca3954fa495",
     "url": "/Clone-Movie-app/static/css/main.45df4133.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Clone-Movie-app/static/js/2.4c1e4398.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5f9b6187560bb440d5dd",
-    "url": "/Clone-Movie-app/static/js/main.bd251158.chunk.js"
+    "revision": "648780c80ca3954fa495",
+    "url": "/Clone-Movie-app/static/js/main.8f7c7d52.chunk.js"
   },
   {
     "revision": "9abe144017742b5ec170",

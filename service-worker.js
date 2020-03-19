@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Clone-Movie-app/precache-manifest.f1b7a5ab7a7e0face2a3c3d86c826788.js"
+  "/Clone-Movie-app/precache-manifest.98ad35b21f981b2c22090c8cd813e181.js"
 );
 
 self.addEventListener('message', (event) => {
