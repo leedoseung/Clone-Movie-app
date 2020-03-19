@@ -8,6 +8,11 @@ export const imagePath = {
   w780: `${IMG_PATH}w780`,
   empty: 'https://ssl.pstatic.net/static/movie/2012/06/dft_img77x96_1.png',
 };
+
+export const YOUTUBE_PATH = 'https://www.youtube.com/watch?v=';
+export const getYoutubeThumbnail = key =>
+  `http://i.ytimg.com/vi/${key}/sddefault.jpg`;
+
 export const AROUND_NOW_PLAYING = 'AROUND_NOW_PLAYING';
 export const AROUND_POPULAR = 'AROUND_POPULAR';
 export const AROUND_TOP_RATED = 'AROUND_TOP_RATED';
