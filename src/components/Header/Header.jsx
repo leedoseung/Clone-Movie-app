@@ -24,11 +24,17 @@ const Header = ({ color, bgColor, isSerching }) => {
               <Link to="/">movie</Link>
             </S.LogoLinkContainer>
             <S.MenuContainer>
-              <S.SearchLinkContainer>
-                <Link to="/search">
-                  <S.SearchIcon />
-                </Link>
-              </S.SearchLinkContainer>
+              {!isSerching ? (
+                <S.SearchLinkContainer>
+                  <Link to="/search">
+                    <S.SearchIcon />
+                  </Link>
+                </S.SearchLinkContainer>
+              ) : (
+                <S.SearchCancle onClick={onClickSearchCancle} type="button">
+                  검색취소
+                </S.SearchCancle>
+              )}
               {isTabletPortrait ? (
                 <S.UL>
                   <S.LI>
